@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="texto1">Hola</string>
+    <string name="texto2">Chau</string>
+    <string name="texto3">Casa</string>
+</resources>

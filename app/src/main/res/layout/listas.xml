@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:prompt="@string/spinner"
+        android:entries="@array/valores_array" />
+
+    <ListView android:id="@+id/LstOpciones"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/row_lista"
+        android:layout_height="200dp" />
+
+    <GridView android:id="@+id/GridOpciones"
+        android:layout_width="match_parent"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="20dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

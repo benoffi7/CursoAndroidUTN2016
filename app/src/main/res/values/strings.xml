@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">EjemploUTN</string>
+    <string name="app_name">My Application</string>
+
+    <string name="texto1">Hello</string>
+    <string name="texto2">Good bye</string>
+    <string name="texto3">House</string>
+    <string name="spinner">Ingrese elemento</string>
+
 </resources>
