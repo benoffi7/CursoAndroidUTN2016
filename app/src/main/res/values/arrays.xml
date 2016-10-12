@@ -4,5 +4,15 @@
         <item>Elem1</item>
         <item>Elem2</item>
     </string-array>
+
+    <string-array name="valores_array_uno">
+        <item>Elem1</item>
+        <item>Elem2</item>
+    </string-array>
+
+    <string-array name="valores_array_dos">
+        <item>Elem1</item>
+        <item>Elem2</item>
+    </string-array>
 </resources>
 
