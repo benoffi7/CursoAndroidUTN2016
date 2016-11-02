@@ -6,4 +6,11 @@
     <string name="texto3">House</string>
     <string name="spinner">Ingrese elemento</string>
 
+
+    <string name="hint_nombre">Ingrese calle</string>
+    <string name="hint_ambientes">Ingrese cant. ambientes</string>
+    <string name="hint_precio">Ingrese precio</string>
+    <string name="check_dp">Departamento</string>
+    <string name="button">Guardar</string>
+
 </resources>

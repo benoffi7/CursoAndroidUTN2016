@@ -66,9 +66,13 @@ public class Clase6Activity extends Activity
                    }
                    else
                    {
+                       int edad = 20;
                        //lanzo otra actividad con el NOMBRE como extra...recordar camion,acoplado y cajitas
                        Intent intent = new Intent(Clase6Activity.this, Clase6BisActivity.class);
                        intent.putExtra("nombre", editText_name.getText().toString());
+                       intent.putExtra("apellido", "benoffi");
+                       intent.putExtra("edad", edad);
+                       intent.putExtra("trabaja", true);
                        startActivity(intent);
                    }
                }
