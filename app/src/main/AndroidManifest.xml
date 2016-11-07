@@ -17,7 +17,7 @@
 
         <activity android:name=".Clase6BisActivity"></activity>
 
-        <activity android:name=".Clase9">
+        <activity android:name=".lay_listas">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
