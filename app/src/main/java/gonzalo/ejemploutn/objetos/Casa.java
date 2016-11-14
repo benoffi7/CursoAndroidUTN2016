@@ -10,6 +10,15 @@ public class Casa
     String calle;
     double precio;
     boolean departamento;
+    boolean favorito;
+
+    public boolean isFavorito() {
+        return favorito;
+    }
+
+    public void setFavorito(boolean favorito) {
+        this.favorito = favorito;
+    }
 
     public boolean isDepartamento() {
         return departamento;
