@@ -108,6 +108,7 @@ public class lay_listas extends AppCompatActivity implements CasaAdapter.Adapter
         rv.setAdapter(adapter);
     }
 
+
     @Override
     public void onClickPress(Casa CasaAEnviar)
     {
@@ -117,6 +118,7 @@ public class lay_listas extends AppCompatActivity implements CasaAdapter.Adapter
             if (casaAux.getCalle().equals(CasaAEnviar.getCalle()))
             {
                 casaAux.setFavorito(!CasaAEnviar.isFavorito());
+                casaAux.setCalle("TOCADA");
             }
         }
         setUpLista();
