@@ -11,13 +11,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import gonzalo.ejemploutn.R;
 import gonzalo.ejemploutn.objetos.Casa;
 
 public class CasaAdapter extends RecyclerView.Adapter<CasaAdapter.CasaViewHolder>
 {
-    ArrayList<Casa> MisCasas;
+    List<Casa> MisCasas;
     int cantidadRecibida =0;
     AdapterInterface adapterInterface;
 
@@ -26,7 +27,7 @@ public class CasaAdapter extends RecyclerView.Adapter<CasaAdapter.CasaViewHolder
         public void onClickPress(Casa CasaAEnviar);
     }
 
-    public CasaAdapter(ArrayList<Casa> CasasDeAfuera,int cantidad, AdapterInterface adapterInterfaceParam){
+    public CasaAdapter(List<Casa> CasasDeAfuera,int cantidad, AdapterInterface adapterInterfaceParam){
         this.MisCasas = CasasDeAfuera;
         this.cantidadRecibida = cantidad;
         this.adapterInterface= adapterInterfaceParam;

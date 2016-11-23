@@ -1,16 +1,28 @@
 package gonzalo.ejemploutn.objetos;
 
+import com.activeandroid.Model;
+import com.activeandroid.annotation.Column;
+import com.activeandroid.annotation.Table;
+
 /**
  * Created by Gonzalo on 01/11/2016.
  */
-
-public class Casa
+@Table(name = "Casa")
+public class Casa extends Model
 {
+    @Column (name = "cantidadHabitaciones")
     int cantidadHabitaciones;
+    @Column (name = "calle")
     String calle;
+    @Column (name = "precio")
     double precio;
+    @Column (name = "departamento")
     boolean departamento;
+    @Column (name = "favorito")
     boolean favorito;
+
+    public Casa() {
+    }
 
     public boolean isFavorito() {
         return favorito;
