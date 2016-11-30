@@ -3,6 +3,7 @@
     package="gonzalo.ejemploutn">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +16,7 @@
 
 <activity android:name=".MainActivity" ></activity>
 
-        <activity android:name=".lay_listas">
+        <activity android:name=".lay_internet">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +27,7 @@
 
         </activity>
 
-        <meta-data android:name="AA_DB_NAME" android:value="Pickrand.db" />
+        <meta-data android:name="AA_DB_NAME" android:value="Pickrand01.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="5" />
 
     </application>
