@@ -6,13 +6,14 @@
     </string-array>
 
     <string-array name="valores_array_uno">
-        <item>Elem1</item>
-        <item>Elem2</item>
+        <item>Si</item>
+        <item>No</item>
     </string-array>
 
     <string-array name="valores_array_dos">
-        <item>Elem1</item>
-        <item>Elem2</item>
+        <item>Matematica</item>
+        <item>Lengua</item>
+        <item>Sociales</item>
     </string-array>
 </resources>
 

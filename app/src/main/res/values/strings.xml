@@ -13,4 +13,7 @@
     <string name="check_dp">Departamento</string>
     <string name="button">Guardar</string>
 
+    <string name="preference_file_key">misprefs</string>
+
+
 </resources>
